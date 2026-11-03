@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://im-lab-formazione-nail-bardi.bardi-fisniku.chatgpt.site/sitemap.xml
