@@ -194,3 +194,5 @@ footer .brand-logo{width:115px}
 .faq{max-width:none;padding-left:max(7%,calc((100% - 860px)/2));padding-right:max(7%,calc((100% - 860px)/2));background:#e9e9e2}
 @media(max-width:1000px){.split-copy{padding:45px 8%;min-height:620px}.split-image{min-height:620px}.split-copy h1{font-size:55px}.split-glass{left:16px;right:16px;padding:17px;gap:12px}}
 @media(max-width:620px){.split-hero{grid-template-columns:1fr}.split-copy{padding:40px 7% 35px;min-height:0}.split-copy h1{font-size:clamp(43px,11vw,60px);margin-bottom:23px}.split-description{font-size:13px;margin-bottom:24px}.split-note{margin-top:28px}.split-image{min-height:0}.split-image>img{height:auto;max-height:none;object-fit:contain}.split-glass{bottom:16px;left:7%;right:7%;padding:15px;font-size:11px}.split-vertical{font-size:7px;right:15px}.split-glass small{font-size:8px}.split-copy .eyebrow{margin-bottom:25px}}
+
+.teaching-story.is-expanded .teaching-portrait{display:block}

@@ -1,3 +1,10 @@
 import { defineConfig } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
-export default defineConfig({server:{allowedHosts:["terminal.local"]},plugins:[tailwindcss()],resolve:{alias:{'@':new URL('.',import.meta.url).pathname}},build:{outDir:'dist'}});
+import { fileURLToPath } from 'node:url';
+
+export default defineConfig({
+  base: '/imlab/',
+  plugins: [tailwindcss()],
+  resolve: { alias: { '@': fileURLToPath(new URL('.', import.meta.url)) } },
+  build: { outDir: 'dist' }
+});
